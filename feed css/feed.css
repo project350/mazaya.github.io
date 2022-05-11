@@ -1,0 +1,39 @@
+*
+{
+text-align: center;
+padding-bottom: 8px;
+}
+.a:hover{ background-color:blue ;
+   color:black;}
+.a{padding :10 px;}
+  
+.text{padding:20px;}
+  
+h1{ font-family:sans-serif;  color:black; font-size:30px;}
+h1{  margin:0% 25%;
+  padding-top: 30px;
+}
+body{ font-family:sans-serif; 
+  background: url(../images/fee7.jpeg);
+  background-size: cover;
+  /*     background-color: #ec407a */
+
+}
+input[type="submit"]
+ {
+font-size: 1.5rem;
+}
+/* .div
+{
+border: 10px grey solid;
+width:70% ;
+margin: auto;
+margin-top: 4rem;
+padding: 1rem;
+} */
+.submit:hover{
+  color:blue;
+}
+.submit {
+  padding: 5px;
+}
