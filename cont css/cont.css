@@ -1,0 +1,186 @@
+/* :root {
+    --main-color : #10cab7 ; 
+} */
+*  {
+    /* -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;*/
+    box-sizing: border-box; 
+    margin: 0;
+    padding: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+/* html{
+    scroll-behavior: smooth;
+} */
+/* body  {
+    font-family: 'Work Sans', sans-serif;
+   
+    
+} */
+/* .container {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+} */
+/* small */
+/* @media (min-width: 768px) {
+ .container{
+     width: 750px;   
+}
+   
+     
+} */
+
+/* medium */
+/* @media (min-width: 992px) {
+.container{
+ width: 970px;   
+ }
+
+} */
+/* large */
+/* @media (min-width: 1200px) {
+.container{
+ width: 1170px;   
+ }
+
+} */
+
+.contact {
+    position: relative;
+    min-height: 100vh;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: url(../images/con666.jpeg);
+    background-size: cover;
+}
+.contact .content {
+    max-width: 800px;
+    text-align: center;
+}
+.contact .content h2 {
+    font-size: 36px;
+    font-weight: 500;
+    color: #00bcd4;
+}
+.contact .content p {
+    font-weight: 300;
+    color: #fff;
+}
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.container .info {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.container .info .box{
+    position: relative;
+    padding: 20px 0;
+    display: flex;
+}
+/* .container .info */
+ /* .box */
+.icon {
+    min-width: 60px;
+    height: 60px;
+    background: #fff;
+    padding-left: 20px;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 22px;
+}
+.container .info .box .text {
+    display: flex;
+    margin-left: 20px;
+    font-size: 16px;
+    color: #fff;
+    flex-direction: column;
+    font-weight: 300;
+}
+.container .info .box .text h3 {
+    font-weight: 500;
+    color: #00bcd4;
+}
+.form {
+    width: 40%;
+    padding: 40px;
+    background: #fff;
+}
+.form h2 {
+    font-size: 30px;
+    color: #333;
+    font-weight: 500;
+}
+.form .input {
+    position: relative;
+    width: 100%;
+    margin-top: 10px 0;    
+}
+.form .input input, 
+.form .input text {
+   width: 100%;
+   padding: 5px 0;
+   font-size: 16px;
+   margin: 10px 0;
+   border: none;
+   border-bottom: 2px solid #333;
+   outline: none;
+   resize: none;
+}
+.form .input span {
+    position: absolute;
+    left: 0;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    pointer-events: none;
+    transition: 0.5s;
+    color: #666;
+}
+.form .input input:focus ~ span,
+.form .input input:valid ~ span,
+.form .input text:focus ~ span,
+.form .input text:valid ~ span
+ {
+    color: #e91e63;
+    font-size: 12px;
+    transform: translate(-20px);
+}
+.form .input input[type="submit"]{
+    width: 100px;
+    background: #00bcd4;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 18px;
+}
+@media (max-width: 991px){
+    .contact
+    {
+        padding: 50px;
+    }
+    .container{
+        flex-direction: column;
+    }
+    .container .info {
+        margin-bottom: 40px;
+    }
+    .container .info,
+    .form
+    {
+        width: 100%;
+    }
+}

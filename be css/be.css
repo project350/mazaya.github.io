@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Caladea&display=swap');
+.navbar{
+  background-color: aliceblue;
+}
+.navbar .brand{ float: left; width:40%;text-transform: uppercase;}
+.navbar .links{ float: right; width:60%;text-transform: uppercase;}
+.clearfix{ clear: both;}
+.contair{ width:1200px;background-color: aliceblue;
+ margin: auto; 
+}
+*{
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+ul{list-style: none;
+  padding:0;
+  margin: 0;
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 10px;
+
+}
+.links li{
+  margin-bottom: 10px;
+  
+}
+/*.active:hover{
+  background-color: pink;
+  color: aliceblue;
+  border-bottom: 2px solid blue; 
+}*/
+.active,
+.links li:hover{ color:#1abc9c;
+  border-bottom: 2px solid #1abc9c;
+}
+.contentshoes{
+  display: grid;
+  grid-template-columns:repeat(2, 1fr);
+  padding: 30px 20px;
+  grid-column-gap:20px;
+  grid-row-gap:30px;
+}
+.shoes img{
+  width:100%;
+  height: 300px;
+  object-fit: cover;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+.shoes img:hover{
+  transform: scale(1.04);
+}
+.shoes h4{
+  padding: 5px;
+  text-align: center;
+}
+.shoes button{
+  padding: 5px 30px;
+  border: none;
+  outline: none;
+  background-color:#3e6787;
+  color:#fff;
+  cursor: pointer;
+  border-radius: 4px;
+  font-size: 20px;
+  display: block;
+  margin: 0 auto;
+  transition: 0.2s all;
+}
+.shoes button:hover{
+  transform: scale(1.08);
+}
+@media screen and (max-width:1000px){
+  .contentshoes{
+    grid-template-columns: repeat(2,1fr);
+  }
+}
+@media screen and (max-width:768px){
+  .contentshoes{
+    grid-template-columns: repeat(1,1fr);
+  }
+}
+h5{
+  font-size:15px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+h5:hover{
+  transition: 0.2s all;
+  transform: scale(1.04);
+  cursor: pointer;
+  
+}
+/*end navbar*/
+
+/* start women bags
+/*end women bags*/
+/* body{
+  background-color:pink; 
+}
+.bee{
+  position: absolute;
+  left: 10%;
+  top: 2%;
+}
+.beestore{
+  position: absolute;
+  left: 12%;
+  top: 3%;
+}
+.contentshoes{
+    display: grid;
+    grid-template-columns:repeat(2, 1fr);
+    padding: 30px 20px;
+    grid-column-gap:20px;
+    grid-row-gap:30px;
+  }
+  .shoes img{
+    width:100%;
+    height: 300px;
+    object-fit: cover;
+    cursor: pointer;
+    transition: 0.2s ease;
+  }
+  .shoes img:hover{
+    transform: scale(1.04);
+  }
+  .shoes h4{
+    padding: 5px;
+    text-align: center;
+  }
+  .shoes button{
+    padding: 5px 30px;
+    border: none;
+    outline: none;
+    background-color:#3e6787;
+    color:#fff;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 20px;
+    display: block;
+    margin: 0 auto;
+    transition: 0.2s all;
+  }
+  .shoes button:hover{
+    transform: scale(1.08);
+  }
+  @media screen and (max-width:1000px){
+    .contentshoes{
+      grid-template-columns: repeat(2,1fr);
+    }
+  }
+  @media screen and (max-width:768px){
+    .contentshoes{
+      grid-template-columns: repeat(1,1fr);
+    }
+  }
+  h5{
+    font-size:15px;
+    padding-bottom: 10px;
+    text-align: center;
+  }
+  h5:hover{
+    transition: 0.2s all;
+    transform: scale(1.04);
+    cursor: pointer;
+    
+  } */ 
