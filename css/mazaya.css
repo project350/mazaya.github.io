@@ -1,0 +1,382 @@
+:root {
+    --main-color : #10cab7 ; 
+}
+*  {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body  {
+    font-family: 'Work Sans', sans-serif;
+   
+    /* background-color: black; */
+}
+.container {
+    /* width: 1170px; */
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+/* small */
+@media (min-width: 768px) {
+    .container{
+     width: 750px;   
+     }
+   
+     
+    }
+
+/* medium */
+@media (min-width: 992px) {
+.container{
+ width: 970px;   
+ }
+
+}
+/* large */
+@media (min-width: 1200px) {
+.container{
+ width: 1170px;   
+ }
+
+}
+/* Start Header */
+
+/* .header .slider{
+    background-color: #fff;
+    height: 500px;
+}
+@media (max-width: 767){
+    .header .slider {
+        max-width: 100%;
+    }
+} */
+.header .slider .container {
+   
+   /* background-image: url(../images/mazaya-logo1-1.png);
+   background-size: cover; */
+     height: 100%;
+    width: 100%;
+    background-color: #231f20;
+    
+}
+.high {
+    height: 500px;
+}
+ .imgs {
+    
+    /* border-style: none; */
+    height: 100%;
+    width: 100%;
+}
+
+/*  <!-- Start navbar --> */
+.header .navbar {
+    background-color: #252f31;
+    color: #fff;
+    overflow: hidden;
+
+}
+.header .navbar h2 {
+    float: left;
+}
+.header .navbar h2 span {
+    color: #2ecc71;
+}
+/* .sup-drop {
+    position: absolute;
+    overflow: hidden;
+    background-color:#252f31;
+    color: #fff;
+    float: left;
+} */
+
+
+.header .navbar ul {
+    list-style: none;
+    padding-left: 0;
+    overflow: hidden;  
+    float: right;
+    display: flex;
+}
+/* .header .navbar  .toggle-menu {
+    color: white;
+    font-size: 22px;
+    margin-top: 8px;
+    /* position: fixed;
+    padding-left: 730px;
+    padding-top: 25px; */
+
+/* @media (min-width: 768px) {
+    .header .navbar  .toggle-menu {
+        display: none;
+    }
+} */
+/* .header .navbar .toggle-menu:hover {
+    color: #30B576;
+} */
+
+.header .navbar  li {
+    float: left;
+    padding: 10px;
+
+
+}
+/* @media (max-width:767px){
+    .header .navbar ul li {
+        display: none;
+    }
+    .header .navbar ul .toggle-menu + ul {
+        display: flex;
+
+    } 
+} */
+.header .navbar ul li a{
+ color: #fff;
+ text-decoration: none;
+
+}
+.header .navbar ul li a:hover {
+    color: #30B576;
+}
+
+/* .navbar .container .form {
+ 
+}
+.navbar .container .form i {
+    /* color: white; */
+
+/* end navbar  */
+/* End Header */
+
+/* Start Features */
+.features {
+overflow: hidden;
+padding-top: 50px;
+padding-bottom: 30px;
+
+}
+.features .feat {
+    /* float: left; */
+    /* width: 33.33333%; */
+    /* height: 150px; */
+    /* background-color: #ddd; */
+    text-align: center;
+
+}
+.features .feat  h2 {
+    text-transform: uppercase;
+    
+    
+    /* text-transform: uppercase;
+    text-align: center; */
+    font-size: 400;
+    font-size: 30px;
+    position: relative;
+    margin-bottom: 60px;
+    font-weight: normal;
+    text-transform: uppercase;
+    
+}
+.features .feat   h2::before{
+  content:'' ;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  height: 2px;
+  background-color: #333;
+  bottom: -30px;
+  width: 350px;
+}
+.features .feat   h2::after{
+  content:'' ;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  height: 20px;
+  /* background-color: #333; */
+  bottom: -30px;
+  width: 20px;
+  border-radius: 50%;
+  border: 2px solid #333;
+  bottom: -40px;
+  background-color: white;
+
+}
+.features .feat p {
+
+    width: 650px;
+    margin: 0 auto 100px;
+    max-width: 100%;
+    color: #777;
+}
+/* Start brands*/
+.propaganda .brands {
+    /* float: left; */
+    /* width: 33.33333%; */
+    /* height: 150px; */
+    /* background-color: #ddd; */
+    text-align: center;
+
+}
+.propaganda .brands  h2 {
+    text-transform: uppercase;
+    
+    
+    /* text-transform: uppercase;
+    text-align: center; */
+    font-size: 400;
+    font-size: 30px;
+    position: relative;
+    margin-bottom: 60px;
+    font-weight: normal;
+    text-transform: uppercase;
+    
+}
+.propaganda .brands   h2::before{
+  content:'' ;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  height: 2px;
+  background-color: #333;
+  bottom: -30px;
+  width: 150px;
+}
+.propaganda .brands   h2::after{
+  content:'' ;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  height: 20px;
+  /* background-color: #333; */
+  bottom: -30px;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  border: 2px solid #333;
+  bottom: -36px;
+  background-color: white;
+
+}
+.propaganda .brands p {
+
+    width: 650px;
+    margin: 0 auto 100px;
+    max-width: 100%;
+    color: #777;
+}
+/* Start Our brands*/
+.propaganda .imgs {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 60px; 
+
+}
+.propaganda .imgs .box {
+    flex-basis: 25%;
+}
+@media(min-width:768px) {
+    .propaganda .imgs .box {
+     flex-basis: 50%;
+    }
+}
+@media(min-width:1199px) {
+    .propaganda .imgs .box {
+     flex-basis: 25%;
+    }
+}
+@media(max-width:768px) {
+    .propaganda .imgs .box {
+     flex-basis: 100%;
+    }
+}
+.propaganda .imgs .box img {
+max-width: 100%;
+}
+.propaganda .imgs .box .caption {
+    /* color: black; */
+
+    position: relative;
+    left: 0;
+    padding: 20px;
+    text-align: center;
+}
+.propaganda .imgs .box .caption h4 a {
+    text-decoration: none;
+    color: black;
+    
+}
+.propaganda .imgs .box .caption h4 a:hover {
+    color: #30B576;
+}
+
+/* End Our brands*/
+.footer {
+    /* background-color: #191e22; */
+    background-color: #252f31;
+    color: #6a6e71;
+    padding: 20px;
+    text-align: center;
+}
+.footer ul {
+    list-style: none;
+    padding-left: 0;
+
+}
+.footer ul li {
+    display: inline-block;
+}
+/* start Foter
+ .footer{
+    padding-top: calc(var(--section-pading) / 2);
+    padding-bottom: calc(var(--section-pading) / 2);
+    background-image: url(../images/WhatsApp\ Image\ 2022-05-07\ at\ 6.57.35\ AM.jpeg);
+    background-size: cover;
+    position: relative;
+    color: white;
+    text-align: center;
+}
+.footer::before {
+    content: "";
+    position: relative;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0 0 0 / 70%);
+
+}
+.footer .container {
+    position: relative;
+}
+.footer img {
+    margin-bottom: 20px;
+}
+.footer p::not(.copyright){
+   text-transform: uppercase;
+   padding: 20px;
+   border-bottom: 1px solid white;
+   font-size: 22px;
+   width: fit-content;
+   margin: 20px auto;
+
+}
+.footer .icons i {
+  padding: 10px 15px;
+}
+.footer .copyright {
+  margin-top: 60px;
+
+}
+.footer .copyright span {
+    font-weight: bold;
+    color: white;
+} */
+
+/*End Foter */

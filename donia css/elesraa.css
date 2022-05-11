@@ -1,0 +1,207 @@
+:root {
+    --main-color : #10cab7 ; 
+}
+*  {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+body  {
+    font-family: 'Work Sans', sans-serif;
+     background-image: url(../elesraaphotoes/الاسراء/IMG_20220505_015345_118.jpg); 
+    background-size: cover;   
+    /* background-color: black; */
+}
+.container {
+    /* width: 1170px; */
+    padding-left: 15px;
+    padding-right: 15px; 
+    margin-left: auto;
+    margin-right: auto;
+}
+/* small */
+@media (min-width: 768px) {
+    .container{
+     width: 750px;   
+     } 
+    }
+
+/* medium */
+@media (min-width: 992px) {
+.container{
+ width: 970px;   
+ }
+}
+/* large */
+@media (min-width: 1200px) {
+.container{
+ width: 1170px;   
+ }
+}
+/* Start logo  */
+.high {
+    height: 600px;
+}
+ img {
+    
+    /* border-style: none; */
+    height: 100%;
+    width: 100%;
+}
+/* End logo
+ padding: 10px; */
+/* Start Pragraph */
+.pragraph {
+    overflow: hidden;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+.pragraph .feat {
+    /* float: left; */
+    /* width: 33.33333%; */
+    height: 220px;
+    background-color: #f2e9fa;
+    text-align: center;
+
+}
+.pragraph .feat  h2 {
+    /* text-transform: uppercase; */
+    
+    
+    /* text-transform: uppercase;
+    text-align: center; */
+    /* font-size: 400; */
+    font-size: 40px;
+    position: relative;
+    margin-bottom: 50px;
+    font-weight: normal;
+    text-transform: uppercase;
+    
+}
+.pragraph .feat  h2::before{
+    content:'' ;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 2px;
+    background-color: #333;
+    bottom: -30px;
+    width: 450px;
+  }
+  .pragraph .feat  h2::after{
+    content:'' ;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border: 2px solid #333;
+    bottom: -38px;
+    background-color: #f2e9fa;
+  }
+.pragraph .feat p {
+
+    width: 550px;
+    margin: 0 auto 100px;
+    max-width: 100%;
+    color: #777;
+    
+}
+/* End Pragraph */
+/* Start models 1 */
+.cont {
+    padding-top: 90px;
+}
+.models  {
+    height: 400px;
+   background-color: #f2f2f2;
+   overflow: hidden;
+}
+/* .models .size {
+    height: 300px;
+    width: 300px;
+} */
+.models img {
+    float: left;
+    height: 400px;
+    width: 400px;
+    width: 40%;
+}
+.models .info {
+    float:left;
+    /* text-align: left; */
+    width: 60%;
+    padding: 40px; 
+}
+@media (min-width: 768px) {
+     .models .info{
+      padding:10px ;    
+     } 
+    }
+
+.models .info h2 {
+    /* margin: 40px 0 20px 40px; */
+    text-align: center;
+    text-transform: uppercase;
+}
+.models .info > p {
+    margin: 30px 130px 30px;
+    /* margin: 40px 0 
+       
+        20px 40px; */
+    line-height: 1.7;
+    /* text-align: center; */
+    /* padding-right: 100px; ; */
+}
+
+.info .infor {
+    overflow: hidden;
+    margin:60px 0 0 40px;
+
+}
+.info .infor > div {
+    float: left;
+    width: 50%;
+    min-height: 100px;
+
+}
+.info .infor p {
+    line-height: 2.7; 
+}
+/* End models */
+/* Start our brands */
+.model .imgs {
+    display: flex;
+    flex-wrap: wrap;
+    /* margin-top: 60px;  */
+
+}
+.model .imgs .box {
+    flex-basis: 25%;
+}
+@media(min-width:768px) {
+    .model .imgs .box {
+     flex-basis: 50%;
+    }
+}
+@media(min-width:1199px) {
+    .model .imgs .box {
+     flex-basis: 25%;
+    }
+}
+@media(max-width:768px) {
+    .model .imgs .box {
+     flex-basis: 100%;
+    }
+}
+.model .imgs .box img {
+max-width: 100%;
+}
+/* End Our brands*/
